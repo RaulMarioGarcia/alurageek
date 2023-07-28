@@ -1,0 +1,10 @@
+{
+  "producto": [
+      {
+        "imgURL": "assets/img/taza-clon.png",
+        "prodName": "Taza clon",
+        "price": "$60.00",
+        "id": 1
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+.header__leftside{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 425px){
+    .header__leftside{
+        margin-right: 0.8rem;
+    }
+}

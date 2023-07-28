@@ -1,0 +1,11 @@
+.contact__link{
+    text-decoration: none;
+    color: #464646;
+    font-size: 0.9rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.contact__link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

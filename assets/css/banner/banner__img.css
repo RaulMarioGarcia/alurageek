@@ -1,0 +1,12 @@
+.banner__img{
+    background-image: url(../../img/banner.png);
+    background-size: cover;
+    height: 20rem;
+    background-position: center;
+}
+
+@media screen and (max-width: 425px){
+    .banner__img{
+        height: 15rem;
+    }
+}

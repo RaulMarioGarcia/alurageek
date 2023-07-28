@@ -1,0 +1,14 @@
+.contact__name{
+    border: none;
+    height: 2.3rem;
+    width: 23rem;
+    padding: .7rem;
+    border-radius: 5%;
+    margin-bottom: .7rem;
+}
+
+@media screen and (max-width: 425px){
+    .contact__name{
+        width: 90%;
+    }
+}

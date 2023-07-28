@@ -1,0 +1,16 @@
+.container{
+    margin: 2rem 6rem;
+    font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 786px){
+    .container{
+        margin: 2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container{
+        margin: 2rem 1rem;
+    }
+}

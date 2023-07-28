@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allurageek - Edit Product</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/container.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/header/header__leftside.css">
+    <link rel="stylesheet" href="assets/css/header/header__logo.css">
+    <link rel="stylesheet" href="assets/css/header/header__searchbar.css">
+    <link rel="stylesheet" href="assets/css/header/header__search.css">
+    <link rel="stylesheet" href="assets/css/header/header__button.css">
+    <link rel="stylesheet" href="assets/css/newProd.css">
+    <link rel="stylesheet" href="assets/css/newProd/newProd__title.css">
+    <link rel="stylesheet" href="assets/css/newProd/newProd__form.css">
+    <link rel="stylesheet" href="assets/css/newProd/newProd__uploadImg.css">
+    <link rel="stylesheet" href="assets/css/newProd/newProd__field.css">
+    <link rel="stylesheet" href="assets/css/newProd/newProd__description.css">
+    <link rel="stylesheet" href="assets/css/newProd/newProd__submit.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+        
+</head>
+<body>
+    <header class="header container">
+        <section class="header__leftside">
+            <a href="index.html" class="header__link">
+                <img src="assets/img/logo-alurageek.svg" alt="logo-alurageek" class="header__logo">
+            </a>
+            <section class="header__searchbar">
+                <input type="search" class="header__search" placeholder="¿Qué deseas buscar?">
+                <img src="assets/img/Icono-buscar.svg">
+            </section>
+        </section>
+        <a href="login.html" class="header__link"><button class="header__button">Login</button></a>
+    </header>
+    <section class="newProd">
+        <h2 class="newProd__title">Agregar nuevo producto</h2>
+            <form action="" class="newProd__form" data-form>
+                <button class="newProd__uploadImg">Subir imagen</button>
+                <input type="text" placeholder="Enlace de la imagen" class="newProd__field" data-imgURL>
+                <input type="text" placeholder="Nombre del producto" class="newProd__field" data-prodName>
+                <input type="text" placeholder="Precio del prooducto" class="newProd__field" data-price>
+                <button type="submit" value="Agregar producto" class="newProd__submit">
+            </form>
+    </section>
+
+    <footer class="footer container">
+        <p class="footer__text">Desarrollado por Raul Garcia</p>
+        <p class="footer__text">2023</p>
+    </footer>
+    <script type="module" src="controllers/update-controller.js"></script>
+</body>
+</html>

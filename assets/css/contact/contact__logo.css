@@ -1,0 +1,9 @@
+.contact__logo{
+    height: 3rem;
+}
+
+@media screen and (max-width: 786px){
+    .contact__logo{
+        margin-bottom: 3rem;
+    }
+}

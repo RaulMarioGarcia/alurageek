@@ -1,0 +1,14 @@
+.contact__massege{
+    border: none;
+    height: 4rem;
+    width: 23rem;
+    padding: .7rem;
+    border-radius: 5%;
+    margin-bottom: .7rem;
+}
+
+@media screen and (max-width: 425px){
+    .contact__massege{
+        width: 90%;
+    }
+}

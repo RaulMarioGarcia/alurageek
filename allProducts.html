@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> Full Catalog - AluraGeek </title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/body.css">
+        <link rel="stylesheet" href="assets/css/container.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/header/header__leftside.css">
+        <link rel="stylesheet" href="assets/css/header/header__logo.css">
+        <link rel="stylesheet" href="assets/css/header/header__searchbar.css">
+        <link rel="stylesheet" href="assets/css/header/header__search.css">
+        <link rel="stylesheet" href="assets/css/header/header__button.css">
+        <link rel="stylesheet" href="assets/css/products.css">
+        <link rel="stylesheet" href="assets/css/products/products__header.css">
+        <link rel="stylesheet" href="assets/css/products/products__title.css">
+        <link rel="stylesheet" href="assets/css/products/products__addProduct.css">
+        <link rel="stylesheet" href="assets/css/products/products__linkAll.css">
+        <link rel="stylesheet" href="assets/css/products/products__showAll.css">
+        <link rel="stylesheet" href="assets/css/products/products__grid.css">
+        <link rel="stylesheet" href="assets/css/products/products__item.css">
+        <link rel="stylesheet" href="assets/css/products/products__img.css">
+        <link rel="stylesheet" href="assets/css/products/products__description.css">
+        <link rel="stylesheet" href="assets/css/products/products__price.css">
+        <link rel="stylesheet" href="assets/css/products/products__link.css">
+        <link rel="stylesheet" href="assets/css/products/products__delete.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__content.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__logo.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__list.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__link.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__form.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__title.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__name.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__massege.css">
+        <link rel="stylesheet" href="assets/css/contact/contact__submit.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+    </head>
+    <body>
+        <header class="header container">
+            <section class="header__leftside">
+                <a href="index.html" class="header__link">
+                    <img src="assets/img/logo-alurageek.svg" alt="logo-alurageek" class="header__logo">
+                </a>
+                <section class="header__searchbar">
+                    <input type="search" class="header__search" placeholder="¿Qué deseas buscar?">
+                    <img src="assets/img/Icono-buscar.svg">
+                </section>
+            </section>
+            <a href="login.html" class="header__link"><button class="header__button">Login</button></a>
+        </header>
+    </section>
+    <!-- Star Wars -->
+    <section class="container products--allProducts">
+        <section class="products__header">
+            <h2 class="products__title">Todos los productos</h2>
+            <a href="newProduct.html" class="products__linkAll">
+                <button class="products__addProduct">Añadir producto</button>
+            </a>
+        </section>
+        <div class="products__grid--allProducts" data-grid>
+            <!-- <div class="products__item--allProducts">
+                <img src="assets/img/taza-clon.png" alt="taza-clon" class="products__img">
+                <p class="products__description">Taza clon</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/lego-vader.png" alt="lego-vader" class="products__img">
+                <p class="products__description">Lego set Vader</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+                <a href="" class="products__link">
+                    <button class="products__delete" id="delete__product">Eliminar producto</button>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/lego-yoda.png" alt="lego-yoda" class="products__img">
+                <p class="products__description">Lego set Yoda</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/clon.png" alt="figura-clon" class="products__img">
+                <p class="products__description">Figura clon</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/baby-yoda.png" alt="baby-yoda" class="products__img">
+                <p class="products__description">Plush Baby Yoda</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/figura-kylo.png" alt="figura-kylo" class="products__img">
+                <p class="products__description">Figura Kylo Ren</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+     Consolas 
+            <div class="products__item--allProducts">
+                <img src="assets/img/control-xbox.png" alt="control-xbox" class="products__img">
+                <p class="products__description">Control de Xbox</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/play5.png" alt="play-station-5" class="products__img">
+                <p class="products__description">Playstation 5</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/nes.png" alt="nes" class="products__img">
+                <p class="products__description">NES</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/control-switch.png" alt="control-switch" class="products__img">
+                <p class="products__description">Control de Switch</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/xboxOne.png" alt="xbox-series-X" class="products__img">
+                <p class="products__description">Xbox Series X</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/gameboy.png" alt="gameboy" class="products__img">
+                <p class="products__description">Gameboy</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+    Diversos
+            <div class="products__item--allProducts">
+                <img src="assets/img/playera-atari.png" alt="playera-atari" class="products__img">
+                <p class="products__description">Camisa Atari</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/playera nes.png" alt="playera-nes" class="products__img">
+                <p class="products__description">Camisa NES</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/figura-sonic.png" alt="figura-sonic" class="products__img">
+                <p class="products__description">Figura de Sonic</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/reloj.png" alt="reloj" class="products__img">
+                <p class="products__description">Reloj</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/vr.png" alt="vr" class="products__img">
+                <p class="products__description">Lentes VR</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div>
+            <div class="products__item--allProducts">
+                <img src="assets/img/botarga-pikachu.png" alt="botarga-pikachu" class="products__img">
+                <p class="products__description">Botarga de Pikachu</p>
+                <p class="products__price">$60.00</p>
+                <a href="" class="products__link">
+                    <p class="products__show">Ver producto</p>
+                </a>
+            </div> -->
+        </div>
+    </section>
+        <section class="contact">
+            <div class="contact__content container">
+                <img src="assets/img/logo-alurageek.svg" alt="" class="contact__logo">
+                <ul class="contact__list">
+                    <a href="#" class="contact__link">Quienes somos</a>
+                    <a href="#" class="contact__link">Politicas de privacidad</a>
+                    <a href="#" class="contact__link">Programa de fidelidad</a>
+                    <a href="#" class="contact__link">Nuestras tiendas</a>
+                    <a href="#" class="contact__link">Quiero ser franquiciado</a>
+                    <a href="#" class="contact__link">Anuncie aquí</a>
+                </ul>
+                <form action="" class="contact__form">
+                    <h2 class="contact__title">Hable con nosotos</h2>
+                    <input type="text" class="contact__name" placeholder="Nombre" name="Nombre">
+                    <input type="text" class="contact__massege" placeholder="Escribe tu mensaje" name="Mensaje">
+                    <button class="contact__submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    <footer class="footer container">
+        <p class="footer__text">Desarrollado por Raul Garcia</p>
+        <p class="footer__text">2023</p>
+    </footer>
+    <script type="module" src="controllers/client-controller.js"></script>
+</body>

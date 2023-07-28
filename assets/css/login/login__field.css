@@ -1,0 +1,14 @@
+.login__field{
+    border: none;
+    height: 2.3rem;
+    width: 30rem;
+    padding: .7rem;
+    border-radius: 5%;
+    margin-bottom: .7rem;
+}
+
+@media screen and (max-width: 425px){
+    .login__field{
+        width: 15rem;
+    }
+}

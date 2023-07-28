@@ -1,0 +1,21 @@
+.header__button{
+    border: solid 1px #2A7AE4;
+    padding: 0.7rem 3.5rem;
+    color: #2A7AE4;
+    background: none;
+    font-weight: 100;
+}
+
+.header__button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px){
+    .header__button{
+        padding: 0.7rem 1.8rem;
+    }
+}
+
+.header__button--login{
+    display: none;
+}

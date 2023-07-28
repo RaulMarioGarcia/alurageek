@@ -1,0 +1,5 @@
+.products__linkAll{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
